@@ -1,5 +1,5 @@
 config:
-  profile: test
+  profiles: test
   said:
     first: Hello
     second: World
