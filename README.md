@@ -22,4 +22,6 @@ microserver architecture 기반 meet project
    - curl localhost:8090/api/meet -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODk1ODEyMTgsInVzZXJfbmFtZSI6ImNkc3N3IiwiYXV0aG9yaXRpZXMiOlsiVVNFUiIsIkFETUlOIl0sImp0aSI6ImY0NjIzN2Y1LWE1OTgtNGRmNy04MTNlLTE0Y2Y0MzcwYTQ5NyIsImNsaWVudF9pZCI6ImF1dGhfaWQiLCJzY29wZSI6WyJyZWFkIl19.JPoBgB0fZHbXaNIykoTxzBxYEUAOleLiMI3JWYEo-mY"
 
 ## Todo...
-1. Config server 추가
+1. 통합테스트 코드에 Profile/ActiveProfile 적용
+2. Config server 추가
+3. Kafka 연동
