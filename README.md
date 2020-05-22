@@ -24,6 +24,6 @@ microserver architecture 기반 meet project
    - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=refresh_token -d scope=read -d refresh_token={refresh token}
 
 ## Todo...
-~1. 통합테스트 코드에 Profile/ActiveProfile 적용
+<del>1. 통합테스트 코드에 Profile/ActiveProfile 적용</del>
 2. Config server 추가
 3. Kafka 연동
