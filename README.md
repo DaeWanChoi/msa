@@ -31,3 +31,4 @@ microserver architecture 기반 meet project
 - scope 처리
 - zipkin 적용
 - docker, kubernetes 적용
+- Hystrix Circuit Breaker 적용
