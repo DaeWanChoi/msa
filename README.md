@@ -21,7 +21,7 @@ microserver architecture 기반 meet project
 2. api 호출 방법 (위에서 받은 accessToken을 적용)
    - curl localhost:8090/api/moim/meet -H "Authorization: Bearer {access_token}"
 3. refresh token으로 access token 얻는 방법
-   - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=refresh_token -d scope=meet.public -d refresh_token={refresh token}
+   - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=refresh_token -d scope=read -d refresh_token={refresh token}
 
 ## Todo...
 - <del>통합테스트 코드에 Profile/ActiveProfile 적용</del>
