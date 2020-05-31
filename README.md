@@ -49,6 +49,8 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
    - curl localhost:8090/meet/1 -H "Authorization: Bearer {access_token}"
    - curl localhost:8090/user/1 -H "Authorization: Bearer {access_token}"
 
+### [MSA QnA Link](https://github.com/cdssw/msa/blob/master/MSA%20QnA.md).
+
 ## Todo...
 - <del>통합테스트 코드에 Profile/ActiveProfile 적용</del>
 - Config server 추가
