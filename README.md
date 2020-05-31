@@ -5,8 +5,8 @@ microserver architecture 기반 moim project
 1. Eureka Server, Port:8761
 2. API Gateway, Port: 8090
 3. Authorization Server: 8095
-4. Resource Server
-   meet : 10000
+4. Resource Server  
+   meet : 10000  
    user : 10005
 
 ## 소스 초기화
@@ -30,7 +30,7 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 
 ## swagger 접속
 - localhost:10000/swagger-ui.html
-- 최초 serer를 up하고 Load balance 등의 오류가 나며 v2/api-docs를 못 읽어오면 잠시 기다리고 eureka가 재로딩 하기를 기다렸다가 다시 조회해 본다
+- 최초 server를 up하고 Load balance 등의 오류가 나며 v2/api-docs를 못 읽어오면 잠시 기다리고 eureka가 재로딩 하기를 기다렸다가 다시 조회해 본다
 
 ## h2 접속
 - Authorization Server → localhost:8095/h2-console, jdbc:h2:mem:testdb
