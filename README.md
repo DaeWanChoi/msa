@@ -30,6 +30,7 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 
 ## swagger 접속
 - localhost:10000/swagger-ui.html
+- 최초 serer를 up하고 Load balance 등의 오류가 나며 v2/api-docs를 못 읽어오면 잠시 기다리고 eureka가 재로딩 하기를 기다렸다가 다시 조회해 본다
 
 ## h2 접속
 - Authorization Server → localhost:8095/h2-console, jdbc:h2:mem:testdb
