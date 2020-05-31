@@ -38,6 +38,7 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 
 ## MariaDB 접속
 - jdbc:mariadb://{주소}:{port}/{db명}
+- Authorization 서버와 User service의 경우 user-dev DB를 공유한다.
 
 ## Usage
 1. access token 받는 방법
