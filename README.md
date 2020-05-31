@@ -9,6 +9,25 @@ microserver architecture 기반 moim project
    meet : 10000
    user : 10005
 
+## 소스 초기화
+sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로 진행한다.
+1. settings.xml 생성
+```xml
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+   <localRepository>C:\sts-4.6.2.RELEASE\repository</localRepository>
+	<interactiveMode>true</interactiveMode>
+	<offline>false</offline>
+</settings>
+```
+2. repository 위치 변경
+   - Window → Preferences → Maven → User Settings의 User Settings 위치를 C:\{sts경로}\settings\settings.xml로 설정 
+3. lombok 설치
+4. QueryDsl 미생성 문제로 SpringToolSuite4.ini 파일을 열고 -vmargs 위에 아래의 정보를 추가한다.
+   ```
+   -vm
+   C:\Program Files\Java\jdk1.8.0_251\bin\javaw.exe 
+   ```
+
 ## swagger 접속
 - localhost:10000/swagger-ui.html
 
