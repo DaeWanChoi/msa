@@ -16,6 +16,9 @@ microserver architecture 기반 moim project
 - Authorization Server → localhost:8095/h2-console, jdbc:h2:mem:testdb
 - meet → localhost:10000/h2-console, jdbc:h2:mem:testdb
 
+## MariaDB 접속
+- jdbc:mariadb://{주소}:{port}/{db명}
+
 ## Usage
 1. access token 받는 방법
    - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=password -d client_id=auth_id -d scope=read -d username=cdssw@naver.com -d password=1234 -d common=common
