@@ -15,8 +15,8 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
    <localRepository>C:\sts-4.6.2.RELEASE\repository</localRepository>
-	<interactiveMode>true</interactiveMode>
-	<offline>false</offline>
+   <interactiveMode>true</interactiveMode>
+   <offline>false</offline>
 </settings>
 ```
 2. repository 위치 변경
