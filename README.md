@@ -18,7 +18,7 @@ microserver architecture 기반 moim project
 
 ## Usage
 1. access token 받는 방법
-   - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=password -d client_id=auth_id -d scope=read -d username=cdssw -d password=1234 -d common=common
+   - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=password -d client_id=auth_id -d scope=read -d username=cdssw@naver.com -d password=1234 -d common=common
 2. refresh token으로 access token 얻는 방법
    - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=refresh_token -d scope=read -d refresh_token={refresh token}
 3. api 호출 방법 (위에서 받은 accessToken을 적용)
