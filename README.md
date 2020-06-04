@@ -61,3 +61,4 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 - zipkin 적용
 - docker, kubernetes 적용
 - Hystrix Circuit Breaker 적용
+- Jenkins 처리
