@@ -32,6 +32,11 @@
    
 6. Restful DTO에서 @Valid 어노테이션에 대하여 GET으로 처리할 때 어떻게 하는가?
    - Get은 @Valid 처리를 하지 않는다.
+
+7. JWT에서 로그아웃 처리방법은?
+   - Client에서 토큰을 삭제
+   - blanklist를 관리
+   - 만료시간을 짧게 조정
    
 * ETC
   - @Embedded 활용  
