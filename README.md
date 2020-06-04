@@ -57,7 +57,7 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 - Config server 추가
 - Kafka 연동
 - <del>CustomAuthenticationProvider 적용</del>
-- scope 처리
+- <del>scope 처리방법 (PreAuthorize("#oauth2.hasScope('write')") 으로 처리</del>
 - zipkin 적용
 - docker, kubernetes 적용
 - Hystrix Circuit Breaker 적용
