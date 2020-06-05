@@ -55,7 +55,7 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 ## Todo...
 - <del>통합테스트 코드에 Profile/ActiveProfile 적용</del>
 - Config server 추가
-- Kafka 연동
+- <del>Kafka 연동</del>
 - <del>CustomAuthenticationProvider 적용</del>
 - <del>scope 처리방법 (PreAuthorize("#oauth2.hasScope('write')") 으로 처리</del>
 - zipkin 적용
