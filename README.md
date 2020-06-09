@@ -48,16 +48,16 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
    - curl auth_id:auth_secret@localhost:8095/oauth/token -d grant_type=refresh_token -d scope=read -d refresh_token={refresh token}
 3. api 호출 방법 (위에서 받은 accessToken을 적용)
    - curl localhost:8090/meet/1 -H "Authorization: Bearer {access_token}"
-   - curl localhost:8090/user/1 -H "Authorization: Bearer {access_token}"
+   - curl localhost:8090/user -H "Authorization: Bearer {access_token}"
 
 ### [MSA QnA Link](https://github.com/cdssw/msa/blob/master/MSA%20QnA.md).
 
 ## Todo...
 - <del>통합테스트 코드에 Profile/ActiveProfile 적용</del>
-- Config server 추가
 - <del>Kafka 연동</del>
 - <del>CustomAuthenticationProvider 적용</del>
 - <del>scope 처리방법 (PreAuthorize("#oauth2.hasScope('write')") 으로 처리</del>
+- Config server 추가
 - zipkin 적용
 - docker, kubernetes 적용
 - Hystrix Circuit Breaker 적용
