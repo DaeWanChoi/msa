@@ -57,8 +57,8 @@ sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로
 - <del>Kafka 연동</del>
 - <del>CustomAuthenticationProvider 적용</del>
 - <del>scope 처리방법 (PreAuthorize("#oauth2.hasScope('write')") 으로 처리</del>
+- <del>docker 적용</del>
+- <del>Jenkins 처리</del>
 - Config server 추가
 - zipkin 적용
-- docker, kubernetes 적용
 - Hystrix Circuit Breaker 적용
-- Jenkins 처리
