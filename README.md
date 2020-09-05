@@ -3,11 +3,16 @@ microserver architecture 기반 moim project
 
 ## Service 구성
 1. Eureka Server, Port:8761
-2. API Gateway, Port: 8090
-3. Authorization Server: 8095
+2. API Gateway, Port: 8090 : Reverse Proxy 9000
+3. Authorization Server: 8095 : Reverse Proxy 9015
 4. Resource Server  
    meet : 10000  
    user : 10005
+   file : 10010
+   addr : 10015
+5. WEB Port 8000 : Reverse Proxy 80
+6. Image Server : https://img-server.duckdns.org : Reverse Proxy 8100
+7. Jenkis Port: 9999 : Reverse Proxy 9010
 
 ## 소스 초기화
 sts를 처음 설치 하고 소스를 다운받기 전에 아래의 순서대로 진행한다.
